@@ -1,43 +1,13 @@
-/*funciones suma, resta, concatenación, división, porcentaje, 
-    y agregar condicional y ciclo 
-    hacer entradas con prompt() y salidas con alert() o console.log(), 
-*/
-
-/*
-Calcular el costo de un servicio
--> Selecionnar un departamento (Condicional)
--> Selecionar un tipo de servicio (Condicional)
--> Seleccionar un cantidad de tecnicos (solo 5 sino error de ingreso)
--> Seleccionar un cantidad de tiempo
--> valor de pago a ingresar = 0 (error si pone 0)
-
-*/
-
-
-
-// function sumar() {
-//     /* poner la variable como parametro*/
-//     var num1 = Number(document.getElementById('num1').value);
-//     var num2 = Number(document.getElementById('num2').value);
-
-//     var resultado = num1 + num2
-
-//     document.getElementById('resultado').value = resultado
-
-//     // var resultado = window.confirm('Estas seguro?');
-//     // if (resultado === true) {
-//     //     window.alert('Okay, si estas seguro.');
-//     // } else {
-//     //     window.alert('Pareces indeciso');
-//     // }
-
-// }
-
+//Estructura de html del proyecto 
+//Variables js
+//Funciones del proceso 
+//Objetos de js
+//Array 
+//Metodos de busqueda y filtrado array
 
 var oficio, otroOficio, costoOficio, suma = 0, cuponCosto1 = -10, total , elUserTieneCupon, codigo = 1234;;
 
 alert('Bienvenido, te queremos brindamos un servicio de limpieza');
-
 alert('Escriba el oficio que requiere, ejemplos: \n Lavar la ropa \n Barrer \n Traperar');
 
 do{
@@ -51,7 +21,6 @@ do{
         console.log("El oficio de " + oficio + " tiene un costo de: "+costoOficio);  
         
         suma = suma + costoOficio; 
-        // resta = (suma + costoOficio) - resta;
     }else{
         alert('Error de ingreso') /*Error*/  
 
@@ -68,9 +37,9 @@ alert('El costo total de todo es: '+suma);
 console.log("El costo total de todo es: "+suma)
 
 
+//Funcion de resta con cupon
 
-
-alert('Tiene un cupon escribe si o no'); 
+alert('¿Tiene un cupon escribe si o no?'); 
 prompt('')/*si*/
 
 alert('Escriba es codigo')
@@ -91,10 +60,7 @@ alert('El costo total con el cupo es: '+suma);
 console.log("El costo total con el cupo es: "+suma)
 
  
-
-
-
-
+//Mostrar todos los oficios de distintis servicio
 
 
 
