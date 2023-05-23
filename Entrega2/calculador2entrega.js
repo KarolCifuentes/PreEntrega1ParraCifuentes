@@ -18,7 +18,7 @@ const tecnico1 = { // Objetos con
 
 const tecnico2 = {
     nombres: ["Karol", "Sofia"],
-    apellidos: ["Zarate", "Cifuentes"],
+    apellidos: ["Parra", "Cifuentes"],
     edad: "21",
     servicio: "Lipieza",
     calificacion: 2,
